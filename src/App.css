@@ -1,0 +1,240 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+.container{
+  display:flex;
+}
+main{
+  width: 100%;
+  padding: 20px;
+}
+.sidebar{
+  margin-top:350px;
+  width:200px;
+  height:35vh;
+  border-radius:0% 20% 20% 0%;
+  color:white;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}  
+.top_section{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
+}
+.logo{
+  font-size: 30px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link{
+  display: flex;
+  color: #020024;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background:#9299c6;
+  color: #000;
+  transition: all 0.5s;
+}
+.active{
+  background: #9299c6;
+  color: #000;
+}
+.icon, .link_text{
+  font-size: 20px;
+}
+/* Dashboard css start */
+.img1_heading{
+  margin-left:100px;
+  font-size:50px;
+  color: #7367F0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.top_main_heading{
+  display:flex;
+  justify-content:center;
+  font-size:40px;
+  color:#130CB7;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+.Main_div{
+  width:80%;
+  height:auto;
+  box-shadow: 10px 10px 10px 10px;
+  margin-left:70px;
+  border-radius:5%;
+  background-color:#28C76F;
+  background-image: linear-gradient(225deg, #0E5CAD  0%, #784BA0 50%, #2B86C5 100%); 
+}
+.profile_title{
+  margin-left:80px;
+  font-size:30px;
+  color: #FED961;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.div_1{
+  display: flex;
+  justify-content: center;
+  margin:10px;
+}
+.div_2{
+  width:25%;
+  height:40vh;
+  border-radius:30px; 
+  margin:10px;
+  background-color: #74EBD5;
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+.img1{
+  width:50%;
+  border-radius:100px;
+}
+.img1:hover{
+  width:100%;
+  height:50%;
+  transition:2s;
+}
+.instagram{
+  margin-top:5px;
+  width:10%;
+}
+.github{
+  margin-top:5px;
+  width:20%;
+}
+.Linkedin{
+  margin-top:5px;
+  width:10%;
+}
+.Facebook{
+  margin-top:5px;
+  width:10%;
+}
+.twitter{
+  margin-top:5px;
+  width:10%;
+}
+.email{
+  margin-top:5px;
+  width:10%;
+}
+.img1_info{
+  width:82%;
+  height:45%;
+  margin-left:30px;
+  border-radius:20px;
+  font-size:16px;
+  text-align: center;
+  color: #000;
+  font-weight:bold;
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+
+/* projects css start */
+.main_div_project{
+  width:80%;
+  height:auto;
+  box-shadow: 10px 10px 10px 10px;
+  margin-left:70px;
+  border-radius:5%;
+  background-color:#28C76F;
+  background-image: linear-gradient(225deg, #0E5CAD  0%, #784BA0 50%, #2B86C5 100%); 
+}
+.img2_heading{
+  margin-left:100px;
+  font-size:50px;
+  color: #7367F0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.div_project_title{
+  margin-left:80px;
+  font-size:30px;
+  color: #FED961;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.div_3{
+  display: flex;
+  justify-content: center;
+  margin:10px;
+}
+.div_4{
+  width:45%;
+  height:30vh;
+  border-radius:30px; 
+  margin:15px;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+.div_4_child{
+  text-align: center;
+  /* margin:30px; */
+  font-size: 15px;
+  border-radius:10px;
+  color: #080247;
+  font-weight:bold;
+ 
+}
+button{
+  font-size:20px;
+  border-radius:10px;
+  cursor:pointer;
+  background-color:#2104b3;
+  color: white;
+  margin-top:30px;
+  border:5px solid #2104b3 ;
+  
+}
+button:hover{
+  font-size:30px;
+  transition:0.6s;
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  border: 5px solid #00DBDE ;
+
+}
+h2{
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  border-radius: 10px;
+  margin: 20px;
+
+}
+/* control pannel css start */
+.panel_heading{
+  margin-left:100px;
+  margin-top:80px;
+  font-size: 40px;
+  color: #000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.panel_heading:hover{
+  color: #f5dfe1;
+  font-size:50px;
+}
+.div_img3{
+  width:30%;
+  height:15vh;
+  margin-left:30px;
+  border-radius:20%;
+  border: 5px solid #9299c6;
+  margin-bottom:50px;
+}
+/* setting css */
+.main_div_background{
+  width:40%;
+  margin-left:400px;
+  margin-top:180px;
+}
